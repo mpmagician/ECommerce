@@ -306,7 +306,8 @@ footer {background-color: #242424;}
 
 /*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
 
-@MEDIA (MAX-WIDTH: 768PX)
+@MEDIA (MAX-WIDTH: 768PX) {
+     .book {width: 50%} 
 
 .header__description {padding: 0 24px;}
 
@@ -314,9 +315,9 @@ h1 {font-size: 40px}
 
 h2 {font-size: 26px}
 
-button {font-size: 18px;}
+button {font-size: 18px;} 
 
-.book {width: 50%}
+ 
 
 
 
