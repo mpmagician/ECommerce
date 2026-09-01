@@ -223,7 +223,7 @@ button:active {
 
 
 .highlight__wrapper {
-     display: flex;
+     display: flex; flex-wrap: wrap;
 }
 
 .highlight {
@@ -231,7 +231,7 @@ button:active {
      width: calc(100%/3);
      display: flex;
      align-items:
-          justify-content;
+          center;
      flex-direction: column;
 }
 
@@ -255,7 +255,7 @@ button:active {
 
 .highlight__subtitle {
      font-size: 20 px;
-     margin-bottom: 16px;
+     margin-bottom: 16px; text-align: center;}
 }
 
 #features {padding-top: 8vw; background-color: rgba(115, 66, 214, .1);}
@@ -303,9 +303,41 @@ footer {background-color: #242424;}
 
 .footer__link {padding: 0 8px;}
 
+
+/*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
+
+@MEDIA (MAX-WIDTH: 768PX)
+
+.header__description {padding: 0 24px;}
+
+h1 {font-size: 40px}
+
+h2 {font-size: 26px}
+
+button {font-size: 18px;}
+
+.book {width: 50%}
+
+
+
+
+/*SMALL PHONES, LARGE SMARTPHONES*/
+
 @media (max-width: 550px) {.nav__links {display: none;}
 
 .btn__menu {display: block;}
+
+.nav__links {display: none;}
+
+.highlight {width: 100%}
+
+.highlight:not(:last-child)
+
+{margin-bottom: 24px}
+
+
+
+
 
 
 
